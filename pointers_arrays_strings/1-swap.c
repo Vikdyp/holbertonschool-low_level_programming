@@ -1,6 +1,11 @@
 #include "main.h"
+
 /**
- * remplace a par b et b par a
+ * swap_int - Échange les valeurs de deux entiers
+ * @a: Pointeur vers le premier entier
+ * @b: Pointeur vers le deuxième entier
+ *
+ * Return: Rien (void)
  */
 void swap_int(int *a, int *b)
 {
