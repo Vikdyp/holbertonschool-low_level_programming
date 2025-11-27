@@ -3,7 +3,7 @@
 /**
  * puts2 - affiche un caractere sur 2
  * @str: chaine string
- * 
+ *
  * Return: nothing (void)
  */
 void puts2(char *str)

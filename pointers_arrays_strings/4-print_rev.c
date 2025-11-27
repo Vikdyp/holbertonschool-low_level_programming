@@ -3,7 +3,7 @@
 /**
  * print_rev - affiche une string a l'envers
  * @s: pointeur vers la chaine
- * 
+ *
  * Return: nothing (void)
  */
 void print_rev(char *s)
