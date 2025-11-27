@@ -10,7 +10,7 @@ int _atoi(char *s)
 {
 	int i = 0;
 	int sign = 1;
-	int result = 0;
+	long result = 0;  /* <-- long au lieu de int */
 	int started = 0;
 
 	/* Parcourir tous les caractères */
@@ -35,5 +35,5 @@ int _atoi(char *s)
 		i++;
 	}
 
-	return (result * sign);
+	return ((int)(result * sign));
 }
