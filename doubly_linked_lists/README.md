@@ -33,6 +33,7 @@ typedef struct dlistint_s
 | `2-add_dnodeint.c` | Function that adds a new node at the beginning of a `dlistint_t` list |
 | `3-add_dnodeint_end.c` | Function that adds a new node at the end of a `dlistint_t` list |
 | `4-free_dlistint.c` | Function that frees a `dlistint_t` list |
+| `5-get_dnodeint.c` | Function that returns the nth node of a `dlistint_t` linked list |
 
 ## Function Prototypes
 
@@ -42,6 +43,7 @@ size_t dlistint_len(const dlistint_t *h);
 dlistint_t *add_dnodeint(dlistint_t **head, const int n);
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);
 void free_dlistint(dlistint_t *head);
+dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
 ```
 
 ## Compilation
