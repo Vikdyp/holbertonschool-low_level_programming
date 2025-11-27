@@ -31,6 +31,7 @@ typedef struct dlistint_s
 | `0-print_dlistint.c` | Function that prints all elements of a `dlistint_t` list |
 | `1-dlistint_len.c` | Function that returns the number of elements in a `dlistint_t` list |
 | `2-add_dnodeint.c` | Function that adds a new node at the beginning of a `dlistint_t` list |
+| `3-add_dnodeint_end.c` | Function that adds a new node at the end of a `dlistint_t` list |
 
 ## Function Prototypes
 
@@ -38,6 +39,7 @@ typedef struct dlistint_s
 size_t print_dlistint(const dlistint_t *h);
 size_t dlistint_len(const dlistint_t *h);
 dlistint_t *add_dnodeint(dlistint_t **head, const int n);
+dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);
 ```
 
 ## Compilation
