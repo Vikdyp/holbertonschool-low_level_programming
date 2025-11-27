@@ -36,6 +36,7 @@ typedef struct dlistint_s
 | `5-get_dnodeint.c` | Function that returns the nth node of a `dlistint_t` linked list |
 | `6-sum_dlistint.c` | Function that returns the sum of all the data (n) of a `dlistint_t` list |
 | `7-insert_dnodeint.c` | Function that inserts a new node at a given position |
+| `8-delete_dnodeint.c` | Function that deletes the node at index of a `dlistint_t` linked list |
 
 ## Function Prototypes
 
@@ -48,6 +49,7 @@ void free_dlistint(dlistint_t *head);
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
 int sum_dlistint(dlistint_t *head);
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
+int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
 ```
 
 ## Compilation
