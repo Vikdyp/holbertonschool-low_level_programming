@@ -1,18 +1,17 @@
 #include "main.h"
 
 /**
- * puts2 - affiche un caractere sur 2
- * @str: chaine string
- *
- * Return: nothing (void)
+ * puts2 - prints every other character of a string
+ * @str: the string to use
  */
 void puts2(char *str)
 {
-int i = 0;
-while (str[i] != '\0')
-{
-_putchar(str[i]);
-i = i + 2;
-}
-_putchar('\n');
+    int i;
+
+    for (i = 0; str[i] != '\0'; i++)
+    {
+        if (i % 2 == 0)
+            _putchar(str[i]);
+    }
+    _putchar('\n');
 }
