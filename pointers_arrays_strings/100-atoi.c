@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* _atoi - convertit une string en entier
-* @s: chaîne à convertir
-*
-* Return: l'entier converti, ou 0 si aucun chiffre
-*/
+ * _atoi - convertit une string en entier
+ * @s: chaîne à convertir
+ *
+ * Return: l'entier converti, ou 0 si aucun chiffre
+ */
 int _atoi(char *s)
 {
 int i = 0;
