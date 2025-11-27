@@ -30,12 +30,14 @@ typedef struct dlistint_s
 | `lists.h` | Header file containing all function prototypes and the doubly linked list structure |
 | `0-print_dlistint.c` | Function that prints all elements of a `dlistint_t` list |
 | `1-dlistint_len.c` | Function that returns the number of elements in a `dlistint_t` list |
+| `2-add_dnodeint.c` | Function that adds a new node at the beginning of a `dlistint_t` list |
 
 ## Function Prototypes
 
 ```c
 size_t print_dlistint(const dlistint_t *h);
 size_t dlistint_len(const dlistint_t *h);
+dlistint_t *add_dnodeint(dlistint_t **head, const int n);
 ```
 
 ## Compilation
